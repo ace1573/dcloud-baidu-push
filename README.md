@@ -110,4 +110,12 @@
 ```
 *  配置完成。
 
-
+3.说明
+===
+* 百度中推送的附加字段的内容放在消息对象的payload字段中：
+```javascript
+//js打印附加字段
+plus.push.addEventListener( "click", function( msg ) {
+	console.log("附加字段："+msg.payload);
+}, false );
+```
