@@ -38,7 +38,7 @@
     android:value="填写你的appsecret" />
 
 <!-- Push service 运行需要的权限 -->
-	<!-- <uses-permission android:name="android.permission.INTERNET" />
+	 <uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
 	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -50,7 +50,7 @@
 	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-	<uses-permission android:name="android.permission.EXPAND_STATUS_BAR" /> -->
+	<uses-permission android:name="android.permission.EXPAND_STATUS_BAR" /> 
 	
 	<!-- 4.6版本新增的Activity声明，提升Push后台存活率 -->
 	<activity
